@@ -9,9 +9,7 @@ Modes:
 
 Usage examples:
   # File mode — enrollment + test file
-  python test_ml_proctoring.py --mode file \
-      --enroll ./Krushangenroll.wav \
-      --test   test_audio.wav
+  python test_ml_proctoring.py --mode file --enroll ./Krushangenroll.wav --test   test_audio.wav
 
   # Live mode — enrollment from file, test from mic
   python test_ml_proctoring.py --mode live \
